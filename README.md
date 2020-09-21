@@ -15,7 +15,7 @@ Gff file of NFN-related conserved non-coding elements that mapped to the genome 
 
 TPM and assemblies of transcriptomes of XX nodulating and XX non-nodulating species:
 
-## Pipeline for detecting convergent evolution.
+## Pipelines for detecting genomic signal of convergent evolution
 
 ###### An ‘alignment’ method used to detect convergent signals in nodulating species
 
@@ -31,4 +31,4 @@ perl Specific_mutation_detector.pl an_aligned_fasta_file list_of_genes_of_intere
 `n` small than n (a cut-off of proportion, ie 0, 0.1, 0.2) of non-targets allowed to have above specific/convergent mutation
 
 
-###### A‘tree topology inference’ method based on large-scale phylogenetic reconstruction of groups of orthologous genes
+###### A ‘tree topology inference’ method based on large-scale phylogenetic reconstruction of groups of orthologous genes
