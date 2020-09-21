@@ -1,7 +1,7 @@
 # NFN-phylogenomics
 
 This repository contains data and code resource for the study of phylogenomics of N-fixing nodulating plants.
-Please see the publications [1]
+Please see the publications [1]. 
 
 ## Phylogenetic data
 
@@ -17,6 +17,6 @@ TPM and assemblies of transcriptomes of XX nodulating and XX non-nodulating spec
 
 ## Pipeline for detecting convergent evolution.
 
-###### an ‘alignment’ method used to detect convergent signals in nodulating species
+###### An ‘alignment’ method used to detect convergent signals in nodulating species
 
-###### a‘tree topology inference’ method based on large-scale phylogenetic reconstruction of groups of orthologous genes
+###### A‘tree topology inference’ method based on large-scale phylogenetic reconstruction of groups of orthologous genes
