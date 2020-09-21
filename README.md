@@ -19,4 +19,8 @@ TPM and assemblies of transcriptomes of XX nodulating and XX non-nodulating spec
 
 ###### An ‘alignment’ method used to detect convergent signals in nodulating species
 
+```
+perl Specific_mutation_detector.pl an_aligned_fasta_file list_of_genes_of_interest m n
+```
+
 ###### A‘tree topology inference’ method based on large-scale phylogenetic reconstruction of groups of orthologous genes
