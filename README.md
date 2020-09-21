@@ -3,19 +3,19 @@
 This repository contains data and code resource for the study of phylogenomics of N-fixing nodulating plants.
 Please see the publications [1]
 
-##Phylogenetic data
+## Phylogenetic data
 
 XX alignemnts and phylogenetic trees of 200 symbiosis related genes:
 
-##Genomic data
+## Genomic data
 
 Gff file of NFN-related conserved non-coding elements that mapped to the genome of Medicago trancatula:
 
-##Transcriptomic data
+## Transcriptomic data
 
 TPM and assemblies of transcriptomes of XX nodulating and XX non-nodulating species:
 
-##Pipeline for detecting convergent evolution.
+## Pipeline for detecting convergent evolution.
 
 ###### an ‘alignment’ method used to detect convergent signals in nodulating species
 
