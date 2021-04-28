@@ -44,4 +44,7 @@ Trimal -in ortholog.pep.fa.MSA -backtrans ortholog.cds.fa -gt 0.5 -out ortholog.
 ```
 3. Manually plot your H0, H1 trees based on your own hypothesis; the convergent species should be in one clade. 
 4. calcuate the log-likelihood
-raxmlHPC-PTHREADS-AVX -f g -s ortholog.cds.fa.MSA -m GTRGAMMA -z retained.species.newick -n ortholog.likehood
+```
+raxmlHPC-PTHREADS-AVX -f g -s ortholog.cds.fa.MSA -m GTRGAMMA -z retained.species.newick -n ortholog.H0.likehood
+```
+
