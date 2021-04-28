@@ -42,3 +42,4 @@ mafft ortholog.pep.fa > ortholog.pep.fa.MSA
 ```
 Trimal -in ortholog.pep.fa.MSA -backtrans ortholog.cds.fa -gt 0.5 -out ortholog.cds.fa.MSA
 ```
+3. Manually Plot your H0, H1 trees based on your own hypothesis; the convergent species should be in one clade. 
