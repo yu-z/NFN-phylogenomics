@@ -32,3 +32,13 @@ perl Specific_mutation_detector.pl an_aligned_fasta_file list_of_genes_of_intere
 
 
 ###### A ‘tree topology inference’ method based on large-scale phylogenetic reconstruction of groups of orthologous genes
+
+1. Make an alignment of all the orthologous proteins that you are interested
+```
+mafft ortholog.pep.fa > ortholog.pep.fa.MSA
+```
+
+2. Make an cds alignment guided by the protein alignment
+```
+Trimal -in ortholog.pep.fa.MSA -backtrans ortholog.cds.fa -gt 0.5 -out ortholog.cds.fa.MSA
+```
